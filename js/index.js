@@ -21,7 +21,7 @@
     //退出登录
     doms.close.addEventListener('click', () => {
         API.loginOut();
-        location.href = '.  /login.html';
+        location.href = './login.html';
     });
     //加载历史聊天记录
     const message = await API.getHistory();
